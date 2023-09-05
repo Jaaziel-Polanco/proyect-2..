@@ -1,0 +1,469 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: 0; font-size: 18px;
+}
+body {
+    background-color: #fcfcfcff;
+    max-width: 1440px; min-width: 375px;
+}
+
+:root {
+
+--Strong-Cyan: #27bea8 ;
+--Light-blue: #6173ff ;
+--Dark-grayist-blue: #4c545d ;
+--Grayistblue: #9fabb2 ;
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(./fonts/BaiJamjuree-SemiBold.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(fonts/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(fonts/BaiJamjuree-Medium.ttf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: semibold;
+    color: var(--Dark-grayist-blue);
+}
+p {
+    color: var(--Grayistblue);
+    font-family: regular;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+}
+header img {
+    margin-top: 150px;
+}
+
+/*section-one*/
+.section-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.section-one h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.btns {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.btn-one {
+    text-decoration: none;
+    color: white;
+    background-color: var(--Strong-Cyan);
+    border-radius: 70px;
+    border-bottom: 3px solid rgb(22, 142, 142) ;
+    padding: 15px; padding-left: 40px; padding-right: 40px;
+    font-family: medium; 
+    margin-right: 15px;
+}
+
+.btn-two {
+    text-decoration: none;
+    color: white;
+    background-color:var(--Light-blue);
+    border-radius: 70px;
+    border-bottom:3px solid #4856c3;
+    padding: 15px; padding-left: 40px; padding-right: 40px;
+    font-family: medium; 
+}
+
+.section-one h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+/*end section-one*/
+
+/*section-two*/
+
+.section-two {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px; margin-bottom: 150px;
+}
+.section-two div img {
+    margin-left: -31px;
+    margin-right: 115px;
+}
+
+.section-two-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.section-two-text {
+    margin-bottom: 60px;
+}
+.section-two h4 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/*end section-two*/
+
+/*section-three*/
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.section-three h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.section-three-text {
+    margin-bottom: 90px;
+}
+
+/*end section-three*/
+
+/* section-four */
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-four-title {
+    margin-bottom: 100px;
+}
+.section-four-title h2 {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.section-four-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 170px;
+}
+
+.section-four-text h5 {
+    margin-top: 40px; margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 170px;
+}
+
+/* end section-four */
+
+/* section-five */
+
+.section-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 155px;
+}
+
+.section-five-text {
+    margin-bottom: 65px;
+}
+.section-five-text h2 {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+/* end section five */
+
+/* footer */
+
+.div-footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 19vh;
+    display: flex;
+    background-color: rgb(238, 234, 234);
+
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-containers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.btn-contact {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    margin-top: 35px;
+    gap: 20px;
+}
+.btn-contact a {
+    text-decoration: none;
+    color: var(--Dark-grayist-blue);
+}
+
+.logo-container-footer {
+    margin-right: 120px; margin-left: 150px;
+    margin-top: 35px;
+}
+
+.social-networks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.p-mobile {
+    display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* end */
+
+/* responsive */
+
+ @media (max-width: 1235px) and (min-width:750px) {
+    .section-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .section-two div img {
+    width: 80%; height:90% ;
+        margin: 0px;
+        margin-bottom: 60px;
+        
+    }
+    .section-three div img {
+        width: 80%; height: 90%;
+    }
+    .section-three-text {
+        margin-bottom: 60px;
+    }
+
+    .section-four-text {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        flex-direction: column;
+    }
+.logo-container-footer{
+    margin: 0px; margin-top: 60px;
+}
+    .div-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 500px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .btn-containers {
+        flex-direction: column;
+    }
+    .btn-contact {
+        margin: 0px; margin-top: 35px;
+    }
+
+    .social-networks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 40px;
+    }
+    .p-mobile {
+        display: none;
+    }
+ }
+
+ @media (max-width: 750px) and (min-width: 375px) {
+   
+    .section-one h1 {
+        font-size: 31.5px;
+        margin-left:17px ; margin-right: 17px;  
+    }
+    .section-one h2 {
+        font-size: 31.5px;
+        margin-left:17px ; margin-right: 17px;  
+    }
+    .section-one p {
+        font-size: 18px;
+        margin-left:17px ; margin-right: 17px;  
+    }
+    .p-normal {
+        display: none;
+    }
+
+
+    .section-two-container {
+        margin-left:17px ; margin-right: 17px; 
+    }
+
+    .section-three-text {
+        margin-left:17px ; margin-right: 17px; 
+        margin-bottom: 60px;
+    }
+    .section-three-text h2 {
+        font-size: 31.5px;
+    }
+
+    .section-four {
+        margin-left: 17px; margin-right: 17px;
+    }
+    .section-four-title h2 {
+        font-size: 31.5px; 
+    }
+
+    .section-five {
+        margin-left: 17px; margin-right: 17px;
+    }
+    .section-five-text {
+        margin-bottom: 7px;
+    }
+    .section-five-text h2 {
+        font-size: 31.5px;
+    }
+
+    .btns {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .btn-one, .btn-two {
+        margin: 0px;
+        padding-left: 70px; padding-right: 70px;
+    }
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .section-two div img {
+    width: 80%; height:90% ;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+    .section-three div img {
+        width: 80%; height: 90%;
+    }
+
+    .section-four-text {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        flex-direction: column;
+    }
+.logo-container-footer{
+    margin: 0px; margin-top: 60px;
+}
+    .div-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 500px;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .btn-containers {
+        flex-direction: column;
+    }
+    .btn-contact {
+        margin: 0px; margin-top: 35px;
+    }
+
+    .social-networks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 40px;
+    }
+
+ }
+
+/*end responsive*/
+
+/*active-states*/
+
+.btn-one:active {
+    background-color: #5dccbbff;
+}
+.btn-two:active {
+    background-color: #8896ffff;
+}
+
+.btn-contact a:active {
+    color: var(--Strong-Cyan);
+}
+ .social-networks img:active {
+  width: 28px; height: 28px;
+ }
+
+ 
