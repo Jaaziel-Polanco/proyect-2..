@@ -350,6 +350,9 @@ footer {
     .p-normal {
         display: none;
     }
+    .p-mobile {
+        display: block;
+    }
 
 
     .section-two-container {
